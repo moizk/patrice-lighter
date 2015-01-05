@@ -1,5 +1,14 @@
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
+div.container {
+  width: 100%;
+  height: 100%;
 }
+
+div.img-strip {
+  height: 1080px;
+  background-color: #000;
+  background-image: url(../img/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
