@@ -12,3 +12,45 @@ div.img-strip {
   background-size: cover;
 }
 
+div.img-strip h1 {
+  /* Positioning */
+  /* Box-model */
+  position: fixed;
+  margin: 0 auto;
+  top: 50%;
+  left: 60%;
+  /* Typography */
+  text-align: center;
+  /* Visual */
+  color: #fff;
+  /* Misc */
+}
+
+
+div.img-strip h1 a {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  text-decoration: none;
+  /* Visual */
+  color: #333;
+  /* Misc */
+}
+
+div.img-strip h1 a:visited {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  color: #fff;
+  /* Misc */
+}
+
+div.img-strip h1 a:hover {
+  /* Positioning */
+  /* Box-model */
+  /* Typography */
+  /* Visual */
+  color: #ff0;
+  /* Misc */
+}
