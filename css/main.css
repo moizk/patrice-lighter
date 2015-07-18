@@ -17,7 +17,7 @@ div.img-strip h1 {
   /* Box-model */
   position: fixed;
   margin: 0 auto;
-  top: 50%;
+  top: 38%;
   left: 60%;
   /* Typography */
   text-align: center;
@@ -25,6 +25,22 @@ div.img-strip h1 {
   color: #fff;
   /* Misc */
 }
+
+@media screen and (max-width: 540px) {
+    div.img-strip h1 {
+      /* Positioning */
+      /* Box-model */
+      position: fixed;
+      margin: 0 auto;
+      top: 90%;
+      left: 10%;
+      /* Typography */
+      text-align: left;
+      /* Visual */
+      color: #fff;
+      /* Misc */
+    }
+  }
 
 
 div.img-strip h1 a {
