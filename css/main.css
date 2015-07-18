@@ -30,10 +30,10 @@ div.img-strip h1 {
   /* Box-model */
   position: fixed;
   margin: 0 auto;
-  top: 38%;
-  left: 60%;
+  top: 90%;
+  left: 40%;
   /* Typography */
-  text-align: center;
+  text-align: left;
   /* Visual */
   color: #fff;
   /* Misc */
