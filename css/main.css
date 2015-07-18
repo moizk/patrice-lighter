@@ -12,6 +12,17 @@ div.img-strip {
   background-size: cover;
 }
 
+@media screen and (max-width: 540px) {
+  div.img-strip {
+    height: 1080px;
+    background-color: #000;
+    background-image: url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 div.img-strip h1 {
   /* Positioning */
   /* Box-model */
@@ -49,7 +60,7 @@ div.img-strip h1 a {
   /* Typography */
   text-decoration: none;
   /* Visual */
-  color: #333;
+  color: #fff;
   /* Misc */
 }
 
